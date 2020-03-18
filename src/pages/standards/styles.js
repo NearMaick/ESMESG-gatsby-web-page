@@ -6,20 +6,25 @@ export const Container = styled.div`
   .container{         
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
-  .head-menu {
+  h1 {
+    text-align: center;
+  }
+
+  .head-menu {    
     height: 600px;
-    width:600px;
+    width: 900px;
     max-height:500px;
-    max-width:500px;
+    /* max-width:500px; */
     /* position: fixed; */
     
 
     nav {
-    display: flex;
-    justify-content: space-between;
-    line-height: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    line-height: 150px;
 
       a {
         font-size: 30px;

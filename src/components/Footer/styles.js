@@ -29,6 +29,7 @@ export const Content = styled.div`
       color: #fff;
       text-align: center;
       margin-left: 30px;
+      background: #000;
     }
 
     .contents {

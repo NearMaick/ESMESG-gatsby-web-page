@@ -44,17 +44,17 @@ export const Container = styled.div`
 }
 
 .depositions {
-  background: #17A2B8;  
+  background: ${props => props.theme.background};  
 
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  line-height: 350px;
+  line-height: 200px;
 
   img {
     width: 500px;
-    height: 200px;    
+    height: 400px;    
   }
 }
 `;
