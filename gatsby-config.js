@@ -8,7 +8,7 @@ const siteMetadata = require('./config/metadata');
 
 module.exports = {
   siteMetadata: {
-  siteUrl: `https://www.example.com`,
+  siteUrl: `https://www.nmwnrservices.com.br`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://www.google.com`,
+        siteUrl: `https://www.nmwnrservices.com.br`,
       },
     },
     {

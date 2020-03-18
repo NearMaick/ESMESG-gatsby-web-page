@@ -6,7 +6,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   position: relative;
-  margin-top: 100%; 
+  /* margin-top: 100%;  */
   height: 200px;
   display: flex;
   justify-content: space-between;

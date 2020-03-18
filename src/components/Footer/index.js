@@ -16,8 +16,8 @@ export default function Footer() {
             <strong>Redes Sociais</strong>
           </div>
           <div class="contents">
-            <img src={facebook} />
-            <img src={insta} />
+            <img src={facebook} alt="facebook"/>
+            <img src={insta} alt="instagram" />
           </div>
         </div>       
 
@@ -26,8 +26,8 @@ export default function Footer() {
             <strong>Entre em contato conosco</strong>
           </div>
           <div class="contents">
-          <p><img src={tel} /> +55 47 99191-9241</p>                        
-          <p><img src={email} /> contato@emseg.com.br </p>  
+          <p><img src={tel} alt="tel" /> +55 47 99191-9241</p>                        
+          <p><img src={email} alt="email" /> contato@emseg.com.br </p>  
           </div>
         </div>
       </Content>

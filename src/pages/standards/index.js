@@ -35,7 +35,7 @@ export default function () {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis massa tincidunt dui ut ornare lectus sit amet. Non consectetur a erat nam at lectus urna. Augue ut lectus arcu bibendum at varius vel pharetra. Lacus laoreet non curabitur gravida arcu ac. Magna fermentum iaculis eu non diam. Sed cras ornare arcu dui vivamus arcu felis bibendum. Id aliquet risus feugiat in ante metus. Ut placerat orci nulla pellentesque. Non consectetur a erat nam. Dui ut ornare lectus sit amet est placerat. Feugiat in fermentum posuere urna nec tincidunt praesent semper.
               <a href="#top">back to top</a>
             </p>
-            < img src={logo} />
+            < img src={logo} alt="logo"/>
           </div>
         </section>
         <section id="nr10">                 
@@ -45,7 +45,7 @@ export default function () {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis massa tincidunt dui ut ornare lectus sit amet. Non consectetur a erat nam at lectus urna. Augue ut lectus arcu bibendum at varius vel pharetra. Lacus laoreet non curabitur gravida arcu ac. Magna fermentum iaculis eu non diam. Sed cras ornare arcu dui vivamus arcu felis bibendum. Id aliquet risus feugiat in ante metus. Ut placerat orci nulla pellentesque. Non consectetur a erat nam. Dui ut ornare lectus sit amet est placerat. Feugiat in fermentum posuere urna nec tincidunt praesent semper.
               <a href="#top">back to top</a>
             </p>
-            < img src={logo} />
+            < img src={logo} alt="logo"/>
           </div>
         </section>
         <section id="nr11">                 
@@ -55,7 +55,7 @@ export default function () {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis massa tincidunt dui ut ornare lectus sit amet. Non consectetur a erat nam at lectus urna. Augue ut lectus arcu bibendum at varius vel pharetra. Lacus laoreet non curabitur gravida arcu ac. Magna fermentum iaculis eu non diam. Sed cras ornare arcu dui vivamus arcu felis bibendum. Id aliquet risus feugiat in ante metus. Ut placerat orci nulla pellentesque. Non consectetur a erat nam. Dui ut ornare lectus sit amet est placerat. Feugiat in fermentum posuere urna nec tincidunt praesent semper.
               <a href="#top">back to top</a>
             </p>
-            < img src={logo} />
+            < img src={logo} alt="logo"/>
           </div>
         </section>
       </div>
