@@ -3,10 +3,12 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background: #f2f2f2;
 
+  margin-top: 200px;
+
   .container{         
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
   }
 
   h1 {

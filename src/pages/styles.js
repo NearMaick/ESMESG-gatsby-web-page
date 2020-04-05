@@ -3,17 +3,30 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background: #f2f2f2;
 
- .container {
+  width: 100vw;
+
+  margin-top: 100px;
+
+ div.container {
   display: flex;
   flex-direction: column;
  }
 
- .container > div { 
+ div.container { 
   text-align: center;
-  height: 800px;
+  height: 2300px;
 }
 
-.main {
+div.main {
+  height: 800px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  background: ${props => props.theme.background};
+
   line-height: 150px;
 
   h1 {
@@ -21,7 +34,10 @@ export const Container = styled.div`
   }
 }
 
-#description {
+div.description {  
+
+  height: 600px;
+
   display: flex;
   flex-direction: row; 
 
@@ -30,25 +46,31 @@ export const Container = styled.div`
   
 }  
 
-.desc {
+div.desc {
   text-align: justify;
-  line-height: 50px;
-  width: 500px;
-  height: 600px;
+  line-height: 36px;
+  width: 500px; 
   font-size: 20px; 
   margin: 5px;
+
+  h1 {
+    line-height: 50px;
+  }
 
   img {
     height: 400px;    
   }
 }
 
-.depositions {
-  background: ${props => props.theme.background};  
+div.depositions {
+  background: ${props => props.theme.background};
+
+  height: 1000px;  
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 
   line-height: 200px;
 
