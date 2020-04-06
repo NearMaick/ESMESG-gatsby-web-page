@@ -34,9 +34,12 @@ export default function Index() {
               <h1>Quem Somos?</h1>
               <p>
                 Somos uma
-                <strong>empresa de treinamento em segurança do trabalho</strong>
+                <strong>
+                  {' '}
+                  empresa de treinamento em segurança do trabalho{' '}
+                </strong>
                 que está no mercado a
-                <strong>mais de 15 anos trabalhando in company</strong>, já
+                <strong> mais de 15 anos trabalhando in company</strong>, já
                 treinamos nas mais variadas áreas da segurança do trabalho e em
                 diversas empresas tais como: Souza Cruz, Cadence, CELESC,
                 Petrobrás entre outras.

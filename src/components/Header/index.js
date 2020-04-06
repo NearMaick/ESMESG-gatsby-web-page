@@ -15,13 +15,13 @@ export default function Header() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/standards">Treinamentos</a>
+              <a href="#none">Treinamentos</a>
               <ul>
                 <li>
-                  <a href="#none">Normas Regulamentares</a>
+                  <a href="/standards">Normas Regulamentares</a>
                 </li>
                 <li>
-                  <a href="#none">Cursos</a>
+                  <a href="/courses">Cursos</a>
                 </li>
               </ul>
             </li>
