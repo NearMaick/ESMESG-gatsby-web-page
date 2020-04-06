@@ -8,13 +8,14 @@ const siteMetadata = require('./config/metadata');
 
 module.exports = {
   siteMetadata: {
-  siteUrl: `https://www.nmwnrservices.com.br`,
+    siteUrl: `https://www.nmwnrservices.com.br`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-eslint-v2',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -24,7 +25,7 @@ module.exports = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `src/assets/logo.svg`
+        icon: `src/assets/logo.svg`,
       },
     },
     {
@@ -36,10 +37,10 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
-      options: {       
-        trackingId: "UA-98273729",        
+      options: {
+        trackingId: 'UA-98273729',
       },
-    }, 
+    },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
@@ -49,16 +50,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
-        displayName: process.env.NODE_ENV !== 'production'
+        displayName: process.env.NODE_ENV !== 'production',
       },
-    },  
+    },
     {
       resolve: `gatsby-plugin-page-creator`,
       options: {
         path: `${__dirname}/src/pages`,
         ignore: [`**/styles.js`],
       },
-    }, 
+    },
     `gatsby-plugin-offline`,
-  ]
-}
+  ],
+};

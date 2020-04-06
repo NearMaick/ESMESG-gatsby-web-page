@@ -12,7 +12,8 @@ export const Content = styled.div`
   justify-content: space-between;
   background: #000;
 
-  .socials, .contact {
+  .socials,
+  .contact {
     margin: 30px;
     display: flex;
     flex-direction: column;
@@ -21,11 +22,12 @@ export const Content = styled.div`
 
     img {
       height: 25px;
-      margin-left: 30px;      
-      padding-right: 20px;     
+      margin-left: 30px;
+      padding-right: 20px;
     }
- 
-    strong, p {
+
+    strong,
+    p {
       color: #fff;
       text-align: center;
       margin-left: 30px;
@@ -41,18 +43,18 @@ export const Content = styled.div`
   .contact {
     margin-right: 90px;
   }
-  
-    a {
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: bold;
-      font-size: 15px;
-      line-height: 18px;
-      margin-left: 20px;
-      font-weight: bold;
-      color: #fff;
-    }
- 
+
+  a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+
   aside {
     padding: 10px 100px 10px;
     display: flex;

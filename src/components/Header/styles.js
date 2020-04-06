@@ -6,7 +6,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   position: fixed;
- 
+
   height: 100px;
   width: 100%;
 
@@ -16,7 +16,7 @@ export const Content = styled.div`
   nav.menu {
     display: flex;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
   }
 
   nav.menu ul {
@@ -50,11 +50,11 @@ export const Content = styled.div`
   }
 
   nav.menu ul ul li {
-    float: none;    
+    float: none;
   }
 
   img {
-      width: 100px;
-      height: 100px;    
-    }
+    width: 100px;
+    height: 100px;
+  }
 `;

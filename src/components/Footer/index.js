@@ -11,23 +11,27 @@ export default function Footer() {
   return (
     <Container>
       <Content>
-        <div class="socials">
-          <div>  
+        <div className="socials">
+          <div>
             <strong>Redes Sociais</strong>
           </div>
-          <div class="contents">
-            <img src={facebook} alt="facebook"/>
+          <div className="contents">
+            <img src={facebook} alt="facebook" />
             <img src={insta} alt="instagram" />
           </div>
-        </div>       
+        </div>
 
-        <div class="contact">
-          <div> 
+        <div className="contact">
+          <div>
             <strong>Entre em contato conosco</strong>
           </div>
-          <div class="contents">
-          <p><img src={tel} alt="tel" /> +55 47 99191-9241</p>                        
-          <p><img src={email} alt="email" /> contato@emseg.com.br </p>  
+          <div className="contents">
+            <p>
+              <img src={tel} alt="tel" /> +55 47 99191-9241
+            </p>
+            <p>
+              <img src={email} alt="email" /> contato@emseg.com.br
+            </p>
           </div>
         </div>
       </Content>

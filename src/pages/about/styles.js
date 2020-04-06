@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* color: ${props => props.theme.primary}; */
+  /* color: ${(props) => props.theme.primary}; */
 
   padding: 16px;
 
@@ -14,6 +14,6 @@ export const Container = styled.div`
     line-height: 40px;
     font-size: 16px;    
     text-align: justify;
-    background: ${props => props.theme.background};
+    background: ${(props) => props.theme.background};
   }
 `;
