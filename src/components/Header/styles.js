@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  background: #f2f2f2;
-`;
-
 export const Content = styled.div`
+  background: #fff;
+
   position: fixed;
+
+  min-width: 920px;
 
   height: 100px;
   width: 100%;
@@ -16,7 +16,7 @@ export const Content = styled.div`
   nav.menu {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   nav.menu ul {

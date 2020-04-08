@@ -1,20 +1,25 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #f2f2f2;
+  /* background: #f2f2f2; */
 
-  width: 100vw;
+  width: 80vw;
 
-  margin-top: 100px;
+  padding: 100px 0 0 20%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 
   div.container {
     display: flex;
     flex-direction: column;
-  }
+    min-width: 1320px;
 
-  div.container {
     text-align: center;
-    height: 2300px;
+
+    /* height: 2300px; */
   }
 
   div.main {
@@ -25,6 +30,7 @@ export const Container = styled.div`
     justify-content: center;
 
     background: ${(props) => props.theme.background};
+    border-radius: 15px;
 
     line-height: 150px;
 
@@ -56,6 +62,7 @@ export const Container = styled.div`
 
     img {
       height: 400px;
+      border-radius: 15px;
     }
   }
 
@@ -63,6 +70,7 @@ export const Container = styled.div`
     background: ${(props) => props.theme.background};
 
     height: 1000px;
+    border-radius: 15px;
 
     display: flex;
     flex-direction: column;

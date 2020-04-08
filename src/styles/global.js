@@ -8,6 +8,10 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;    
   } 
+
+  body {
+    min-width: 1240px;
+  }
  
   body, input, button {
     font: 14px 'Roboto', sans-serif;

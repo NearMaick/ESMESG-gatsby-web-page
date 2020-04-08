@@ -2,15 +2,17 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #000;
+  border-radius: 15px;
+
+  min-width: 1320px;
 `;
 
 export const Content = styled.div`
   position: relative;
-  /* margin-top: 100%;  */
+
   height: 200px;
   display: flex;
   justify-content: space-between;
-  background: #000;
 
   .socials,
   .contact {

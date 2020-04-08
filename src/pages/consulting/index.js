@@ -14,6 +14,19 @@ export default function Consulting() {
     <Container>
       <GlobalStyle />
       <Header />
+      <h1>Palestras</h1>
+      <p>
+        Está tendo problemas em conseguir passar as diretrizes de segurança para
+        os seus funcionários sem ser maçante? Estamos prontos para auxilia-los,
+        com profissionais especializados e prontos para passar o conhecimento de
+        maneira focada e diferente. Ligue e marque já um orçamento.
+      </p>
+      <h1>Consultoria</h1>
+      <p>
+        Com dificuldades nas normas técnicas? Não sabe por onde começar ou
+        acabar? Ligue e marque já um orçamento, sempre estaremos com
+        profissionais prontos para buscar a melhor solução para você.
+      </p>
       <img src={image} alt="Consultoria" />
       <h1>Cursos</h1>
       <h2>Plano de Evacuação e abandono de área</h2>
@@ -31,19 +44,7 @@ export default function Consulting() {
         segurança de trabalho para seus colaboradores. Ligue e marque já um
         orçamento.{' '}
       </p>
-      <h1>Palestras</h1>
-      <p>
-        Está tendo problemas em conseguir passar as diretrizes de segurança para
-        os seus funcionários sem ser maçante? Estamos prontos para auxilia-los,
-        com profissionais especializados e prontos para passar o conhecimento de
-        maneira focada e diferente. Ligue e marque já um orçamento.
-      </p>
-      <h1>Consultoria</h1>
-      <p>
-        Com dificuldades nas normas técnicas? Não sabe por onde começar ou
-        acabar? Ligue e marque já um orçamento, sempre estaremos com
-        profissionais prontos para buscar a melhor solução para você.
-      </p>
+
       <Footer />
     </Container>
   );
