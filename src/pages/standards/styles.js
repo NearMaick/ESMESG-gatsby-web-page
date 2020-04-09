@@ -4,7 +4,7 @@ export const Container = styled.div`
   background: #f2f2f2;
   min-width: 1360px;
 
-  margin: 150px 0 50px;
+  margin: 150px 0 0;
 
   div.container {
     display: flex;

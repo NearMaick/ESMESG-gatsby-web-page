@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import { Container } from './styles';
 
@@ -15,6 +16,8 @@ export default function Index() {
     <Container>
       <GlobalStyle />
       <Header />
+
+      <Helmet title="ESM Consultoria" />
       <div className="container">
         <div className="main">
           <section>

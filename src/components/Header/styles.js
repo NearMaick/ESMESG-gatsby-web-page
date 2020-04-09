@@ -30,7 +30,8 @@ export const Content = styled.div`
   }
 
   nav.menu a {
-    padding: 5px;
+    /* background: #ddd; */
+    padding: 10px 0 18px;
     display: block;
     color: #000;
     text-decoration: none;
@@ -50,7 +51,9 @@ export const Content = styled.div`
   }
 
   nav.menu ul ul li {
+    /* background: #333; */
     float: none;
+    line-height: 20px;
   }
 
   img {

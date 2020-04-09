@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 
 import GlobalStyle from '../../styles/global';
 
@@ -12,6 +13,7 @@ import { Container } from './styles';
 export default function () {
   return (
     <Container>
+      <Helmet title="ESM Consultoria" />
       <GlobalStyle />
       <Header />
       <div className="container">
@@ -53,29 +55,29 @@ export default function () {
                   identificar os riscos ambientais.
                 </p>
                 <h3>Carga horária mínima: 20 horas.</h3>
-                <a href="#top">back to top</a>
+                <a href="#top">Voltar ao topo</a>
               </div>
               <div className="parttwo">
                 <h3>Conteúdo Programático</h3>
                 <ul>
-                  <li>ATRIBUIÇÕES DOS CIPEIROS;</li>
-                  <li>ATUAÇÃO DOS MEMBROS DA CIPA;</li>
-                  <li>ORGANIZAÇÃO DA CIPA;</li>
-                  <li>RISCOS AMBIENTAIS;</li>
-                  <li>MAPA DE RISCOS;</li>
-                  <li>INSPEÇÃO DE SEGURANÇA;</li>
-                  <li>EPI – EQUIPAMENTO DE PROTEÇÃO INDIVIDUAL;</li>
-                  <li>NOÇÕES DE PREVENÇÃO E COMBATE A INCÊNDIO;</li>
-                  <li>ACIDENTE DO TRABALHO;</li>
-                  <li>CONSEQÜÊNCIAS DOS ACIDENTES;</li>
-                  <li>TIPOS DE ACIDENTES;</li>
-                  <li>CAUSAS DOS ACIDENTES;</li>
-                  <li>CAT – COMUNICAÇÃO DO ACIDENTE DE TRABALHO;</li>
-                  <li>BENEFÍCIOS PREVIDENCIÁRIOS PARA O ACIDENTADO;</li>
-                  <li>INVESTIGAÇÃO DOS ACIDENTES;</li>
-                  <li>NOÇÕES SOBRE AIDS;</li>
-                  <li>CAMPANHAS DE SEGURANÇA;</li>
-                  <li>REUNIÃO DA CIPA - COMO SE REALIZA.</li>
+                  <li>Atribuições dos cipeiros;</li>
+                  <li>Atuação dos membros da cipa;</li>
+                  <li>Organização da cipa;</li>
+                  <li>Riscos ambientais;</li>
+                  <li>Mapa de riscos;</li>
+                  <li>Inspeção de segurança;</li>
+                  <li>EPI – Equipamento de Proteção Individual;</li>
+                  <li>Noções de prevenção e combate a incêndio;</li>
+                  <li>Acidente do trabalho;</li>
+                  <li>Conseqüências dos acidentes;</li>
+                  <li>Tipos de acidentes;</li>
+                  <li>Causas dos acidentes;</li>
+                  <li>CAT – Comunicação do Acidente de Trabalho;</li>
+                  <li>Benefícios previdenciários para o acidentado;</li>
+                  <li>Investigação dos acidentes;</li>
+                  <li>Noções sobre aids;</li>
+                  <li>Campanhas de segurança;</li>
+                  <li>Reunião da cipa - como se realiza.</li>
                 </ul>
               </div>
             </div>
@@ -92,7 +94,7 @@ export default function () {
                   em nível industrial ou comercial.
                 </p>
                 <h3>Carga horária mínima: 40 horas.</h3>
-                <a href="#top">back to top</a>
+                <a href="#top">Voltar ao topo</a>
               </div>
               <div className="parttwo">
                 <h3>Conteúdo Programático</h3>
