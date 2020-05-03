@@ -3,8 +3,6 @@ import Helmet from 'react-helmet';
 
 import GlobalStyle from '../../styles/global';
 
-import logo from '../../assets/logo.svg';
-
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
@@ -23,6 +21,7 @@ export default function () {
           </header>
           <nav>
             <a href="#nr05">05</a>
+            <a href="#nr06">06</a>
             <a href="#nr10">10</a>
             <a href="#nr11">11</a>
             <a href="#nr12">12</a>
@@ -78,6 +77,43 @@ export default function () {
                   <li>Noções sobre aids;</li>
                   <li>Campanhas de segurança;</li>
                   <li>Reunião da cipa - como se realiza.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section id="nr06">
+            <h1>Norma Regulamentar 06</h1>
+            <h2>NR 06 – EPI (Equipamento de proteção individual)</h2>
+            <div className="text">
+              <div className="partone">
+                <p>
+                  Este curso tem como intuito instruir as normas técnicas,
+                  ressaltar a importância, identificação, manutenção e ciclo de
+                  vida geral dos equipamentos de proteção individuais.
+                </p>
+                <h3>Carga horária mínima: 4 horas.</h3>
+                <a href="#top">Voltar ao topo</a>
+              </div>
+              <div className="parttwo">
+                <h3>Conteúdo Programático</h3>
+                <ul>
+                  <li>Conceitos e Definições;</li>
+                  <li>Certificado de Aprovação – CA;</li>
+                  <li>Responsabilidades e Competências;</li>
+                  <li>Tipos de EPI;</li>
+                  <li>EPI para Proteção da Cabeça;</li>
+                  <li>EPI para Proteção dos Olhos e Face;</li>
+                  <li>EPI para Proteção Auditiva;</li>
+                  <li>EPI para Proteção Respiratória;</li>
+                  <li>EPI para proteção do Tronco;</li>
+                  <li>EPI para Proteção dos Membros Superiores;</li>
+                  <li>EPI para Proteção dos Membros Inferiores;</li>
+                  <li>EPI para Proteção do Corpo Inteiro;</li>
+                  <li>
+                    EPI para Proteção Contra Quedas com Diferença de Nível.
+                  </li>
+                  <li>Validade do EPI;</li>
+                  <li>Manutenção, Conservação e Limpeza.</li>
                 </ul>
               </div>
             </div>
@@ -155,42 +191,75 @@ export default function () {
           </section>
           <section id="nr11">
             <h1>Norma Regulamentar 11</h1>
+            <h2>
+              NR 11 - Segurança para transporte, armazenamento, movimentação e
+              manuseio de materiais
+            </h2>
             <div className="text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Turpis massa tincidunt dui ut ornare lectus sit amet. Non
-                consectetur a erat nam at lectus urna. Augue ut lectus arcu
-                bibendum at varius vel pharetra. Lacus laoreet non curabitur
-                gravida arcu ac. Magna fermentum iaculis eu non diam. Sed cras
-                ornare arcu dui vivamus arcu felis bibendum. Id aliquet risus
-                feugiat in ante metus. Ut placerat orci nulla pellentesque. Non
-                consectetur a erat nam. Dui ut ornare lectus sit amet est
-                placerat. Feugiat in fermentum posuere urna nec tincidunt
-                praesent semper.
-                <a href="#top">back to top</a>
-              </p>
-              <img src={logo} alt="logo" />
+              <div className="partone">
+                <p>
+                  Este curso tem como intuito instruir e capacitar para normas
+                  técnicas visando os indivíduos que iram trabalhar direta ou
+                  indiretamente com transporte, armazenamento, movimentação e
+                  manuseio de materiais, buscando apresentar seus riscos,
+                  prevenções e condições de trabalho.
+                </p>
+                <h3>Carga horária mínima: 16 horas.</h3>
+                <a href="#top">Voltar ao topo</a>
+              </div>
+              <div className="parttwo">
+                <h3>Conteúdo Programático</h3>
+                <ul>
+                  <li>Normas Técnicas;</li>
+                  <li>Amarrações;</li>
+                  <li>Acessórios;</li>
+                  <li>Tipos de EPI;</li>
+                  <li>Cabos de aço;</li>
+                  <li>Capacidade de Carga;</li>
+                  <li>Utilização e Segurança do Equipamento;</li>
+                  <li>Operacionalização do Equipamento;</li>
+                  <li>Simulação Prática;</li>
+                </ul>
+              </div>
             </div>
           </section>
           <section id="nr12">
             <h1>Norma Regulamentar 12</h1>
+            <h2>NR 12 - Segurança de trabalho em máquinas e equipamentos</h2>
             <div className="text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Turpis massa tincidunt dui ut ornare lectus sit amet. Non
-                consectetur a erat nam at lectus urna. Augue ut lectus arcu
-                bibendum at varius vel pharetra. Lacus laoreet non curabitur
-                gravida arcu ac. Magna fermentum iaculis eu non diam. Sed cras
-                ornare arcu dui vivamus arcu felis bibendum. Id aliquet risus
-                feugiat in ante metus. Ut placerat orci nulla pellentesque. Non
-                consectetur a erat nam. Dui ut ornare lectus sit amet est
-                placerat. Feugiat in fermentum posuere urna nec tincidunt
-                praesent semper.
-                <a href="#top">back to top</a>
-              </p>
-              <img src={logo} alt="logo" />
+              <div className="partone">
+                <p>
+                  Este curso tem como intuito instruir e capacitar para normas
+                  técnicas visando os indivíduos que iram trabalhar direta ou
+                  indiretamente com máquinas e equipamentos, buscando apresentar
+                  seus riscos, manutenções, prevenções, manuseios e condições de
+                  trabalho.
+                </p>
+                <h3>Carga horária mínima: 16 horas.</h3>
+                <a href="#top">Voltar ao topo</a>
+              </div>
+              <div className="parttwo">
+                <h3>Conteúdo Programático</h3>
+                <ul>
+                  <li>Normas Técnicas;</li>
+                  <li>
+                    Descrição, identificação dos riscos associados com máquinas
+                    e equipamentos;
+                  </li>
+                  <li>Funcionamento dos equipamento de proteção;</li>
+                  <li>Princípios de segurança;</li>
+                  <li>
+                    Segurança para riscos mecânicos, elétricos e outros
+                    relevantes;
+                  </li>
+                  <li>Método de trabalho seguro;</li>
+                  <li>Utilização e Segurança do Equipamento;</li>
+                  <li>Operacionalização do Equipamento;</li>
+                  <li>Permissão de trabalho;</li>
+                  <li>Sistemas de bloqueio durante operações;</li>
+                  <li>Simulação Prática;</li>
+                </ul>
+              </div>
             </div>
           </section>
         </div>

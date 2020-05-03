@@ -36,18 +36,24 @@ export const Content = styled.div`
     color: #000;
     text-decoration: none;
     text-align: center;
+    transition-property: color;
+    transition-duration: 0.5s;
   }
 
   nav.menu ul ul {
     position: absolute;
     visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s linear, opacity 0.3s linear;
   }
 
   nav.menu ul li:hover ul {
     visibility: visible;
+    opacity: 1;
   }
+
   nav.menu a:hover {
-    color: #666;
+    color: #f00;
   }
 
   nav.menu ul ul li {

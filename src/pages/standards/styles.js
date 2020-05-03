@@ -75,6 +75,7 @@ export const Container = styled.div`
   div.text div {
     border-radius: 15px;
     padding: 60px;
+    width: 400px;
   }
 
   div.sections h2 {
@@ -82,8 +83,6 @@ export const Container = styled.div`
   }
 
   div.partone {
-    width: 600px;
-
     border: solid 3px #000;
 
     font-size: 16px;

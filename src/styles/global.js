@@ -9,6 +9,10 @@ export default createGlobalStyle`
     box-sizing: border-box;    
   } 
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     min-width: 1240px;
   }
