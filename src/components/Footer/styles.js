@@ -5,6 +5,13 @@ export const Container = styled.div`
   border-radius: 15px;
 
   min-width: 1320px;
+
+  div.copy {
+    position: absolute;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 180px;
+  }
 `;
 
 export const Content = styled.div`
@@ -38,6 +45,7 @@ export const Content = styled.div`
 
     .contents {
       display: flex;
+      margin-top: 24px;
       margin-bottom: 50px;
     }
   }

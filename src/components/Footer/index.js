@@ -34,6 +34,9 @@ export default function Footer() {
             </p>
           </div>
         </div>
+        <div className="copy">
+          <strong>Design feito por NearMaick</strong>
+        </div>
       </Content>
     </Container>
   );
