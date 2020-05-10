@@ -12,8 +12,8 @@ export default function Courses() {
     <Container>
       <GlobalStyle />
       <Header />
-      <h1>Cursos</h1>
-      <section>
+      <h1>Em construção</h1>
+      {/* <section>
         <h2>NR 05 – CIPA (Comissão interna de prevenção de acidentes)</h2>
         <p>
           Este curso tem como intuito instruir a importância, normas, rotinas e
@@ -41,7 +41,7 @@ export default function Courses() {
           <li>Normas ABNT sobre Instalações Elétricas.</li>
         </ul>
         <h2>Carga horária mínima: 40 horas.</h2>
-      </section>
+      </section> */}
       <Footer />
     </Container>
   );

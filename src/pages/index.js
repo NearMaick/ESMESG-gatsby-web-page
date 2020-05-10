@@ -9,7 +9,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 import segImage from '../assets/imageIndex01.png';
-import depImage from '../assets/depositions.jpg';
+// import depImage from '../assets/depositions.jpg';
 
 export default function Index() {
   return (
@@ -54,7 +54,7 @@ export default function Index() {
             </div>
           </div>
         </section>
-        <div className="depositions">
+        {/* <div className="depositions">
           <h1>Depoimentos</h1>
           <img src={depImage} alt="Depoimentos" />
           <p>
@@ -62,7 +62,7 @@ export default function Index() {
             facilisis, enim sit amet suscipit pretium, felis arcu maximus nibh,
             ac facilisis libero erat ut dolor
           </p>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </Container>

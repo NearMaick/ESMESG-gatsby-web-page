@@ -48,5 +48,14 @@ export const Container = styled.div`
     /* background: ${(props) => props.theme.background}; */
   }
 
+  /* Response page */
+
+  @media (max-width: 1270px) {
+      div.consulting {
+        flex-direction: column-reverse;
+        height: 800px;
+      }
+    }
+
   
 `;

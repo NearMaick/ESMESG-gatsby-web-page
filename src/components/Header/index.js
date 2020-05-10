@@ -6,6 +6,15 @@ import { Content } from './styles';
 export default function Header() {
   return (
     <Content>
+      {/* <div className="responsive on">
+        <div className="toggle">
+          <div className="one">
+            <img src={logo} alt="ESM Treinamentos" />
+          </div>
+          <div className="two">2</div>
+          <div className="three">3</div>
+        </div>
+      </div> */}
       <nav className="menu">
         <img src={logo} alt="ESM Treinamentos" />
 

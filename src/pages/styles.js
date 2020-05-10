@@ -108,4 +108,13 @@ export const Container = styled.div`
       width: 600px;
       height: 400px;
     }
+
+    /* Response page */
+
+    @media (max-width: 1470px) {
+      div.description {
+        flex-direction: column-reverse;
+        height: 800px;
+      }
+    }
 `;

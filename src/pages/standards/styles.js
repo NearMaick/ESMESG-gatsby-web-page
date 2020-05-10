@@ -91,4 +91,13 @@ export const Container = styled.div`
   div.parttwo {
     background: #666;
   }
+
+  /* Response page */
+
+  @media (max-width: 1030px) {
+    div.text {
+      flex-direction: column;
+      height: 800px;
+    }
+  }
 `;

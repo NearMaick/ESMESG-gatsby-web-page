@@ -13,6 +13,10 @@ export const Content = styled.div`
   left: 0px;
   top: 0px;
 
+  div.responsive {
+    display: none;
+  }
+
   nav.menu {
     display: flex;
     align-items: center;
@@ -59,11 +63,53 @@ export const Content = styled.div`
   nav.menu ul ul li {
     /* background: #333; */
     float: none;
-    line-height: 20px;
+    line-height: 2rem;
   }
 
   img {
     width: 100px;
     height: 100px;
+  }
+
+  /* Responsive */
+
+  /* @media (max-width: 900px) {
+    nav.menu,
+    nav.menu ul li {
+      flex-direction: column;
+      float: none;
+    }
+
+    nav.menu ul ul li {
+      float: right;
+    }
+
+    div.responsive {
+      display: flex;
+    }
+
+    img {
+      height: 50px;
+      width: 50px;
+    }
+
+    div.toggle {
+      width: 40px;
+      height: 30px;
+      margin-right: 20px;
+    } */
+
+    /* div.responsive.on {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      width: 70vw;
+      height: 70vh;
+
+      background-color: #f00;
+
+      z-index: 10;
+    } */
   }
 `;
