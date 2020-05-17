@@ -117,4 +117,10 @@ export const Container = styled.div`
         height: 800px;
       }
     }
+
+    /* @media (max-width: 600px) {
+     * {
+       margin: 0 15px;
+     }
+    } */
 `;

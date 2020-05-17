@@ -73,43 +73,27 @@ export const Content = styled.div`
 
   /* Responsive */
 
-  /* @media (max-width: 900px) {
+  @media (max-width: 900px) {
     nav.menu,
     nav.menu ul li {
-      flex-direction: column;
-      float: none;
-    }
-
-    nav.menu ul ul li {
-      float: right;
+      display: none;
     }
 
     div.responsive {
-      display: flex;
+      display: block;
     }
 
-    img {
-      height: 50px;
-      width: 50px;
+    div.responsive ul {
+      display: none;
     }
 
-    div.toggle {
-      width: 40px;
-      height: 30px;
-      margin-right: 20px;
-    } */
+    div.responsive.on {
+      width: 200px;
+      height: 80vh;
+    }
 
-    /* div.responsive.on {
-      position: absolute;
-      top: 0;
-      left: 0;
-
-      width: 70vw;
-      height: 70vh;
-
-      background-color: #f00;
-
-      z-index: 10;
-    } */
+    div.responsive.on ul {
+      display: block;
+    }
   }
 `;
